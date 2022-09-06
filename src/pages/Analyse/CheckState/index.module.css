@@ -1,0 +1,58 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    width: 79.5%;
+    height: 100%;
+    background-color: pink;
+}
+
+.left_top{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+}
+
+.left_top_top{
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left_top_top_item{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+.left_top_bottom{
+    float: left;
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: red;
+}
+
+.left_bottom{
+    margin-top: 10px;
+    width: 100%;
+    height: calc(30% - 10px);
+    background-color: green;
+}
+
+.right{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}

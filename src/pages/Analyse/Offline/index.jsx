@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { message } from 'antd';
-import indicator from './index.module.css'
+import offline from './index.module.css'
 
 export default class index extends Component {
 
@@ -16,8 +16,8 @@ export default class index extends Component {
    
     render() {
       return (
-        <div className={indicator.container}>
-         <h1>指标分析</h1>  
+        <div className={offline.container}>
+         <h1>离线分析功能</h1>  
         </div>
       )
     }

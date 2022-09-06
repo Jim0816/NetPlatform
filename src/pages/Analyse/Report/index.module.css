@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.top{
+    float: left;
+    width: 100%;
+    height: calc(100% - 250px - 10px);
+    background-color: pink;
+}
+
+.top_top{
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.top_top_item{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+.top_bottom{
+    float: left;
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: pink;
+}
+
+.top_tool{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.bottom{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+}
+
+.bottom_left{
+    float: left;
+    width: 70%;
+    height: 250px;
+    background-color: yellow;
+}
+
+.bottom_right{
+    float: left;
+    width: 30%;
+    height: 250px;
+    background-color: gray;
+}
