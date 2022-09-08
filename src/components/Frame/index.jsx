@@ -34,8 +34,7 @@ const columns = [
   {
     title: '参数值',
     dataIndex: 'value',
-    width: 300,
-    render : 'aaaa ' + 
+    width: 300
   },
   {
     title: '备注',
