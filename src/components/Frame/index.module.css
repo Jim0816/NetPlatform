@@ -91,6 +91,16 @@
     font-size: 15px;
   }
 
+  .app_bottom_left_logo_btn{
+    position: absolute;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
   .app_bottom_right{
     float: left;
     margin-top: 10px;
